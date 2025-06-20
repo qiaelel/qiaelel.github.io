@@ -1,0 +1,90 @@
+
+
+body{
+    background-image: url(background.png);
+    min-height: 10em;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+
+    
+}
+
+header{
+    background-color: rgb(217, 217, 217);
+    margin: auto; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    border-radius: 4mm;
+    
+}
+
+footer{
+    background-color: rgb(217 217, 217);
+    position: absolute;
+    border-radius: 4mm;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 12pt;
+    display: flex;
+    bottom: 0;
+}
+
+.utf{
+    text-align: right;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+
+
+.nav{
+    position: relative;
+    margin-inline: 47px;
+    text-align: center;
+}
+
+
+.bodybuttons{
+    font-style: italic;
+    margin-inline: 27px;
+    transform: translateX(45px);
+}
+
+.rights{
+    left: 100px;
+    
+}
+
+.utf{
+    
+}
+
+.maintext{
+    position: relative;
+    transform: translateX(40px);
+    font-size: 15pt;
+}
+
+.maintexth1{
+    position: relative;
+    transform: translateX(40px);
+    font-style: 700;
+    font-size: 36pt;
+}
+
+
+.name{
+    position: absolute;
+    left:35px;
+}
+
