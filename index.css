@@ -1,90 +1,132 @@
 
-
 body{
-    background-image: url(background.png);
-    min-height: 10em;
-    font-family: "Ubuntu Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-
-    
+    background-image: url(img/indexbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #1A1A1A;
+    font-family: Ubuntu sans mono, monospace;
 }
 
 header{
-    background-color: rgb(217, 217, 217);
-    margin: auto; 
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12pt;
-    border-radius: 4mm;
+    transform: translate(calc(100vw - 67vw), 0);
+    width: 200px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main{
+    place-items: center;
+    display:block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
+}
+
+h1{
+    color: #292828;
+    font-size: 100px;
+    font-family: zen dots , regular;
+    text-shadow: 10px 10px 10px #6C6C6C;
+    text-align: center;
     
 }
 
 footer{
-    background-color: rgb(217 217, 217);
-    position: absolute;
-    border-radius: 4mm;
-    margin: auto;
+    position: fixed;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-size: 12pt;
-    display: flex;
-    bottom: 0;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    color: #8B8383;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    transform: translate(calc(100vw - 55vw), 0);
+    top: 92vh;
+    box-shadow: inset 0 0 10px #474747;
 }
 
-.utf{
-    text-align: right;
+.info{
+    color: white;
+    width: 950px;
+    height: 130px;
+    backdrop-filter: blur(30px) brightness(90%);
+    border-radius: 24px;
+    font-size: 14pt; 
+    line-height: 20%;
+    box-shadow: inset 0 0 15px #474747;
 }
 
-a{
-    color:black;
-    text-decoration:none;
+.text{
+    transform: translate(15px, 30px);
 }
-
-
 
 .nav{
-    position: relative;
-    margin-inline: 47px;
+    font-size: 13pt;
+    display: inline-flex;
+}
+
+.but1{
+    width: 130px;
+    height: 40px;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    box-shadow: inset 0 0 10px #8888;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-100px, 10px);
+}
+
+.but2{
+    width: 130px;
+    height: 40px;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    box-shadow: inset 0 0 10px #8888;
+    justify-content: center;
+    text-align: center;
+    transform: translate(0, 10px);
+}
+
+.but3{
+    width: 200px;
+    height: 40px;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    box-shadow: inset 0 0 10px #8888;
+    justify-content: center;
+    text-align: center;
+    transform: translate(100px, 10px);
+    color: white;
+}
+
+.but4{
+    width: 200px;
+    height: 40px;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    box-shadow: inset 0 0 10px #8888;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.but5{
+    width: 200px;
+    height: 40px;
+    backdrop-filter: blur(15px) brightness(100%);
+    border-radius: 24px;
+    box-shadow: inset 0 0 10px #8888;
+    justify-content: center;
     text-align: center;
 }
 
-
-.bodybuttons{
-    font-style: italic;
-    margin-inline: 27px;
-    transform: translateX(45px);
+.infobuttons{
+    display: flex;
+    transform: translate(0, 50px);
 }
-
-.rights{
-    left: 100px;
-    
-}
-
-.utf{
-    
-}
-
-.maintext{
-    position: relative;
-    transform: translateX(40px);
-    font-size: 15pt;
-}
-
-.maintexth1{
-    position: relative;
-    transform: translateX(40px);
-    font-style: 700;
-    font-size: 36pt;
-}
-
-
-.name{
-    position: absolute;
-    left:35px;
-}
-
